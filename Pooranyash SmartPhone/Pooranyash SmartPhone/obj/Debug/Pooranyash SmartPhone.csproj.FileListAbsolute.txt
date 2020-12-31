@@ -1,0 +1,38 @@
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\bin\Debug\Pooranyash SmartPhone.exe.config
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\bin\Debug\Pooranyash SmartPhone.exe
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\bin\Debug\Pooranyash SmartPhone.pdb
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash SmartPhone.csprojResolveAssemblyReference.cache
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmBank_Master.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmBrandName.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmColorMaster.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmGST_Master.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmRegistration.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.Login.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.Properties.Resources.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash SmartPhone.csproj.GenerateResource.Cache
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash SmartPhone.exe
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash SmartPhone.pdb
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmMain.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmExpensesIncome.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmIncomeSpecs.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmRechargeCompanyMaster.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmSupplierRegistration.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmProductRegistration.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmSale.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmIMEI.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmBankTransaction.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmDepoWithdraw.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmPurchase.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmDailySales.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmEmployeeRegistration.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmFirmRegistration.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmState.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmExpenseRecords.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmTrialForm.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash SmartPhone.csproj.ResolveComReference.cache
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\bin\Debug\itextsharp.dll
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmDistributor.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmMultipleDependencies.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmMultipleState.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmMultipleDistrict.resources
+F:\PooraYash Infotech\Pooranyash SmartPhone\Pooranyash SmartPhone\obj\Debug\Pooranyash_SmartPhone.frmMultipleTaluka.resources

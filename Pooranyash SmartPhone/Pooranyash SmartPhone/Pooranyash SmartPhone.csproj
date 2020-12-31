@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DF4BA3A-B3D2-4265-97C0-6341DCE656F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pooranyash_SmartPhone</RootNamespace>
+    <AssemblyName>Pooranyash SmartPhone</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GenericFeatures">
+      <HintPath>C:\GenericFeatures.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>C:\DOT NET Files\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmBankMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBankMaster.Designer.cs">
+      <DependentUpon>frmBankMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBankTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBankTransaction.Designer.cs">
+      <DependentUpon>frmBankTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBrandName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrandName.Designer.cs">
+      <DependentUpon>frmBrandName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmColorMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColorMaster.Designer.cs">
+      <DependentUpon>frmColorMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDailySales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDailySales.Designer.cs">
+      <DependentUpon>frmDailySales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDepoWithdraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDepoWithdraw.Designer.cs">
+      <DependentUpon>frmDepoWithdraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDistributor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDistributor.Designer.cs">
+      <DependentUpon>frmDistributor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeRegistration.Designer.cs">
+      <DependentUpon>frmEmployeeRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpenseRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpenseRecords.Designer.cs">
+      <DependentUpon>frmExpenseRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpensesIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpensesIncome.Designer.cs">
+      <DependentUpon>frmExpensesIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFirmRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFirmRegistration.Designer.cs">
+      <DependentUpon>frmFirmRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGST_Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGST_Master.Designer.cs">
+      <DependentUpon>frmGST_Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIMEI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIMEI.Designer.cs">
+      <DependentUpon>frmIMEI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIncomeSpecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIncomeSpecs.Designer.cs">
+      <DependentUpon>frmIncomeSpecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMultipleDependencies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMultipleDependencies.Designer.cs">
+      <DependentUpon>frmMultipleDependencies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMultipleDistrict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMultipleDistrict.Designer.cs">
+      <DependentUpon>frmMultipleDistrict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMultipleState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMultipleState.Designer.cs">
+      <DependentUpon>frmMultipleState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMultipleTaluka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMultipleTaluka.Designer.cs">
+      <DependentUpon>frmMultipleTaluka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductRegistration.Designer.cs">
+      <DependentUpon>frmProductRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPurchase.Designer.cs">
+      <DependentUpon>frmPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRechargeCompanyMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRechargeCompanyMaster.Designer.cs">
+      <DependentUpon>frmRechargeCompanyMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistration.Designer.cs">
+      <DependentUpon>frmRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSale.Designer.cs">
+      <DependentUpon>frmSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmState.Designer.cs">
+      <DependentUpon>frmState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSupplierRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupplierRegistration.Designer.cs">
+      <DependentUpon>frmSupplierRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrialForm.Designer.cs">
+      <DependentUpon>frmTrialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBankMaster.resx">
+      <DependentUpon>frmBankMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBankTransaction.resx">
+      <DependentUpon>frmBankTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrandName.resx">
+      <DependentUpon>frmBrandName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmColorMaster.resx">
+      <DependentUpon>frmColorMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDailySales.resx">
+      <DependentUpon>frmDailySales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDepoWithdraw.resx">
+      <DependentUpon>frmDepoWithdraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDistributor.resx">
+      <DependentUpon>frmDistributor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeRegistration.resx">
+      <DependentUpon>frmEmployeeRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpenseRecords.resx">
+      <DependentUpon>frmExpenseRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpensesIncome.resx">
+      <DependentUpon>frmExpensesIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFirmRegistration.resx">
+      <DependentUpon>frmFirmRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGST_Master.resx">
+      <DependentUpon>frmGST_Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIMEI.resx">
+      <DependentUpon>frmIMEI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIncomeSpecs.resx">
+      <DependentUpon>frmIncomeSpecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMultipleDependencies.resx">
+      <DependentUpon>frmMultipleDependencies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMultipleDistrict.resx">
+      <DependentUpon>frmMultipleDistrict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMultipleState.resx">
+      <DependentUpon>frmMultipleState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMultipleTaluka.resx">
+      <DependentUpon>frmMultipleTaluka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductRegistration.resx">
+      <DependentUpon>frmProductRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPurchase.resx">
+      <DependentUpon>frmPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRechargeCompanyMaster.resx">
+      <DependentUpon>frmRechargeCompanyMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistration.resx">
+      <DependentUpon>frmRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSale.resx">
+      <DependentUpon>frmSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmState.resx">
+      <DependentUpon>frmState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupplierRegistration.resx">
+      <DependentUpon>frmSupplierRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrialForm.resx">
+      <DependentUpon>frmTrialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caltime" />
+    <None Include="Resources\register.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelBtn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daily.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dailyexpenses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitBtn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobileshop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modify.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveBtn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdateBtn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gst.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign up1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile-brands.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile-brands1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngregister.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FirmPic\" />
+    <Folder Include="ID proof\" />
+    <Folder Include="photo\" />
+    <Folder Include="trialid\" />
+    <Folder Include="trialpic\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expenses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
